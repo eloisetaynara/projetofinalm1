@@ -1,0 +1,68 @@
+
+*{
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+ }
+
+ body {
+  background-image: url("../img/fundo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p{
+text-align: justify;
+}
+
+h1 {
+	text-align: center;
+
+}
+h2{
+	text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px;
+}
+.caixa1{
+  background-color: #3e3850;
+  padding: 33px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.caixa2{
+  background-color: #3e3850;
+  padding: 36px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 6px;
+}
+.caixa3{
+  background-color: #3e3850;
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+img {
+  max-width:500px;
+  max-height:350px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.top {
+  background-color: #3e3850;
+  padding-top: 25px;
+  
+  height: 90px;
+}
+
